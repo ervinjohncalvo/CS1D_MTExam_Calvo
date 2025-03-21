@@ -4,9 +4,9 @@ let guess;
 while (guess != theFavNumber) {
     guess = (prompt("Guess the favorite number: "), 10);
 
-    if (guess = theFavNumber) {
+    if (guess > theFavNumber) {
         console.log("High!");
-    } else if (guess = theFavNumber) {
+    } else if (guess > theFavNumber) {
         console.log("Low!");
     } else {
         console.log("Correct!");
